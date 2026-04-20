@@ -2,9 +2,6 @@
 
 A REST API that identifies food dishes from images and returns their ingredients — powered by a Vision Transformer (ViT) model and TheMealDB.
 
-<!-- Add a banner or demo screenshot here -->
-<!-- ![Banner](images/banner.png) -->
-
 ---
 
 ## 📌 How It Works
@@ -13,9 +10,6 @@ A REST API that identifies food dishes from images and returns their ingredients
 2. A pre-trained ViT model (`nateraw/food`) classifies the dish
 3. The dish name is fuzzy-matched against TheMealDB
 4. Returns the dish name, ingredients, and match confidence score
-
-<!-- Add a flow diagram or architecture image here -->
-<!-- ![Architecture](images/architecture.png) -->
 
 ---
 
@@ -113,10 +107,9 @@ Upload a food image and get the dish name + ingredients.
 ---
 
 ## 🖼️ Demo
-
-<!-- Add screenshots of the API response or Swagger UI here -->
-<!-- ![Swagger UI](images/swagger_demo.png) -->
-<!-- ![Predict Response](images/predict_response.png) -->
+<img width="1251" height="571" alt="image" src="https://github.com/user-attachments/assets/5ea2abb5-0971-4ba9-ab34-33ef6bc9dffd" />
+<img width="1260" height="901" alt="image" src="https://github.com/user-attachments/assets/b759ab8c-1eb3-4fe3-a368-b2bd0163e5e1" />
+<img width="1282" height="733" alt="image" src="https://github.com/user-attachments/assets/c743bf45-1db5-4bc4-be8f-d2729277f825" />
 
 ---
 
@@ -165,7 +158,3 @@ API/
 - [Pillow](https://python-pillow.org/)
 
 ---
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
